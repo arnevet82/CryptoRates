@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.crypto.velis.cryptorates.MainActivity">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="17dp"
+        android:text="Trending Currencies"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:id="@+id/trending"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <View
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="53dp"
+        android:layout_width="220dp"
+        android:layout_height="0.5dp"
+        android:background="#ffffff" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="100dp"
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/refresh"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/refresh_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>
+

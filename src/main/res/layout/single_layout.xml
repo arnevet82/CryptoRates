@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:padding="17dip"
+    android:background="@drawable/card"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TOP SECTION HERE"
+        android:layout_marginLeft="35dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/arrow"
+        android:layout_width="18dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:gravity="right"
+        android:id="@+id/value"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BOTTOM SECTION HERE"
+        android:layout_marginRight="40dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_below="@+id/value"
+        android:gravity="right"
+        android:id="@+id/pct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:textSize="14dp" />
+
+
+
+
+</RelativeLayout>
