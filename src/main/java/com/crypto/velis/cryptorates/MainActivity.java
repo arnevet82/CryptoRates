@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         getRates();
         SetCheckRatesAlarm();
+        setChangeRatesAlarm();
         listview = (ListView) findViewById(R.id.listview);
         listview.setBackgroundResource(R.drawable.card);
         refresh.setOnClickListener(new View.OnClickListener() {
