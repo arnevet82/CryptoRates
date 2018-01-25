@@ -77,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
         return closingRates;
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getRates();
+    }
+
     public void saveRates(){
         closingRates.clear();
         for(Coin coin: coins){
